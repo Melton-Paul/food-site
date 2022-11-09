@@ -12,11 +12,18 @@ export default function Hero() {
       ctaLoc: "",
     },
     {
-      title: "Hand Made, Always Fresh. Our Guarantee.",
-      cta: "Where is the truck today?",
+      title: "Where is the truck today?",
+      cta: "",
       ctaBtn: "Check Schedule",
       ctaAct: "",
       ctaLoc: "/location",
+    },
+    {
+      title: `Hand Made, Always Fresh.`,
+      cta: "Our Guarantee.",
+      ctaBtn: "View Menu",
+      ctaAct: "",
+      ctaLoc: "/menu",
     },
   ];
   const [counter, setCounter] = React.useState(0);
@@ -31,7 +38,7 @@ export default function Hero() {
           return prev + 1;
         }
       });
-    }, 5000);
+    }, 9000);
   }, [calllines.length]);
 
   function buttonClick() {
