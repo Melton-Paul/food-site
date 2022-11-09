@@ -7,7 +7,7 @@ export default function Cta() {
       {/* <h2 className={styles["cta-title"]}>Want to place an order?</h2> */}
       <div>
         <button className={styles["cta-btn"]}>Order Online</button>
-        <span>or</span>
+        <span>Or</span>
         <button className={styles["cta-btn"]}>Call 417.860.9136</button>
       </div>
     </div>
