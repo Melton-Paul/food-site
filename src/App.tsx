@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Routes>
          <Route path="/" element={<Hero />}/>
+         <Route path="*" element={<Hero />} />
       </Routes>
     </div>
   );
