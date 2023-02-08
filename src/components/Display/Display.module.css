@@ -1,0 +1,42 @@
+.display {
+  background: url("../../images/wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.display-title {
+  margin: 3rem;
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+}
+
+.display-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+  padding: 0 2rem;
+  height: 900px;
+}
+
+.display-body {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  color: black;
+  font-size: 1.1rem;
+}
+.display-body-title {
+  letter-spacing: -1px;
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .display-cards {
+    flex-direction: row;
+    gap: 3rem;
+    height: 300px;
+  }
+}

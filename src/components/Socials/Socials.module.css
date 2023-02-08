@@ -1,0 +1,21 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+}
+.social-icons a:hover {
+  transform: scale(1.05);
+}
+.social-title {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
